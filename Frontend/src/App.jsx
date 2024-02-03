@@ -27,6 +27,7 @@ function App() {
         <tbody>
           {data.map((item) => (
             <tr key={item.id}>
+              <td>{item.id}</td>
               <td>{item.first_name}</td>
               <td>{item.last_name}</td>
               <td>{item.email}</td>
